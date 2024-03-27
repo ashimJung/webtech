@@ -1,0 +1,169 @@
+ /* Reset some default styles */
+body, ul {
+  margin: 0;
+  padding: 0;
+  background-color: rgb(222, 184, 135);
+}
+
+header {
+  background-color: rgb(60, 50, 36);
+  color: #fff;
+  padding: 10px 0;
+  font-size: 15px;
+  
+}
+
+
+nav ul {
+  background-color: rgb(60, 50, 36);
+  list-style-type: none;
+  font-size: 15px;
+  text-align: center;
+  display: flex; /* Add flexbox display */
+  justify-content: space-around; /* Add space between items */
+  padding: 0 20px; /* Add padding for better spacing */
+}
+
+ 
+  /* Remove margin-right from li elements */
+ 
+
+nav ul li a {
+  color: #fff;
+  text-decoration: none;
+}
+
+.intro {
+  text-align: center;
+}
+
+.profile-pic {
+  background-image: url('photos/self.jpg'); /* Add your profile picture */
+  background-size: cover;
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+  margin: 20px auto;
+  border: 5px solid #fff; /* Add a border around the profile picture */
+}
+
+.skills {
+  display: flex;
+  justify-content: center;
+  margin-top: 20px;
+}
+
+.skill {
+  margin-right: 20px;
+}
+
+.progress-bar {
+  width: 100px;
+  height: 10px;
+  background-color: #ddd;
+  border-radius: 5px;
+}
+
+/* Colors for different skill bars */
+.html { background-color: #f16529; }
+.css { background-color: #2965f1; }
+.js { background-color: #f0db4f; }
+.python { background-color: #3572a5; }
+
+/* Styling for social links */
+.social-links {
+  text-align: center;
+  margin-top: 180px;
+  border: 1px solid rgb(184, 184, 184);
+  width: 400px;
+    margin-left: 500px;
+    padding: 9px;
+    background-color: antiquewhite;
+    position: fixed;
+    
+}
+
+.social-links li {
+  display: inline-block;
+  margin: 0 10px;
+  font-size: 22px;
+}
+
+.social-links li a {
+  color: #333;
+  text-decoration: none;
+  font-size: 18px;
+}
+
+.social-links li a:hover {
+  color: #666;
+}
+p{
+  font-size: 20px;
+  line-height: 30px;
+  color: cornflowerblue;
+}
+/* CSS for contact form */
+#contact-form {
+  max-width: 400px;
+  margin: 0 auto; /* Center the form horizontally */
+  padding: 20px;
+  border: 2px solid #ccc;
+  border-radius: 5px;
+}
+
+#contact-form label {
+  display: block;
+  margin-bottom: 10px;
+}
+
+#contact-form input[type="text"],
+#contact-form input[type="email"],
+#contact-form textarea {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 20px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  box-sizing: border-box; /* Include padding and border in element's total width and height */
+}
+
+#contact-form textarea {
+  resize: vertical; /* Allow vertical resizing of the textarea */
+}
+
+#contact-form button {
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  padding: 10px 20px;
+  cursor: pointer;
+}
+
+#contact-form button:hover {
+  background-color: #0056b3;
+}
+.contact-info{
+  text-align: center;
+}
+/* Default styles */
+
+/* Styles for laptops/desktops */
+ /* CSS for laptops */
+@media screen and (min-width: 769px) {
+  /* Add laptop-specific styles */
+}
+
+/* CSS for mobile phones */
+@media screen and (max-width: 480px) {
+  /* Add mobile-specific styles */
+}
+
+/* CSS for iPads */
+@media screen and (min-width: 481px) and (max-width: 1024px) {
+  /* Add iPad-specific styles */
+}
+
+
+
