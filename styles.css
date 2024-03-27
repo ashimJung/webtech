@@ -38,7 +38,7 @@ nav ul li a {
 }
 
 .profile-pic {
-  background-image: url('photos/self.jpg'); /* Add your profile picture */
+  background-image: url('self.jpg'); /* Add your profile picture */
   background-size: cover;
   width: 200px;
   height: 200px;
